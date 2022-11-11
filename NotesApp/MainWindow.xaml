@@ -1,0 +1,36 @@
+﻿<Window x:Class="NotesApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NotesApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Closing="Window_Closing">
+    <Grid>
+        <Grid.RowDefinitions>
+        <RowDefinition Height="*" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="*" />
+         <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <DataGrid x:Name="BranchesDataGrid" AutoGenerateColumns="False" SelectionMode="Single" SelectionUnit="FullRow" ItemsSource="{Binding Branches}">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Nom" Binding="{Binding Nom}" />
+                <DataGridTextColumn Header="Notes" Binding="{Binding ListeNotes, Mode=OneWay}" />
+                <DataGridTextColumn Header="Moyenne" Binding="{Binding Moyenne, Mode=OneWay, StringFormat=F2}" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <GridSplitter Grid.Row ="1" HorizontalAlignment="Stretch" Height="5"/>
+        <DataGrid x:Name="NotesDataGrid" Grid.Row="2" ItemsSource="{Binding SelectedItem.Notes, ElementName=BranchesDataGrid}" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Date" Binding="{Binding Date}" />
+                <DataGridTextColumn Header="Pondération" Binding="{Binding Ponderation}" />
+                <DataGridTextColumn Header="Note" Binding="{Binding Valeur}" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <StackPanel Grid.Row="3" Orientation="Horizontal" FlowDirection="RightToLeft">
+            <Label x:Name="MoyenneLbl" Width="100" Content="{Binding Moyenne}" ContentStringFormat="F2"/>
+            <Label Content="Moyenne générale " />
+        </StackPanel>
+    </Grid>
+</Window>

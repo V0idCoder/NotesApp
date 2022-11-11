@@ -1,0 +1,15 @@
+R:\PAP_Théorie\ICH-320 [T]\Exercices\NotesApp\NotesCli\bin\Debug\net6.0\NotesCli.exe
+R:\PAP_Théorie\ICH-320 [T]\Exercices\NotesApp\NotesCli\bin\Debug\net6.0\NotesCli.deps.json
+R:\PAP_Théorie\ICH-320 [T]\Exercices\NotesApp\NotesCli\bin\Debug\net6.0\NotesCli.runtimeconfig.json
+R:\PAP_Théorie\ICH-320 [T]\Exercices\NotesApp\NotesCli\bin\Debug\net6.0\NotesCli.dll
+R:\PAP_Théorie\ICH-320 [T]\Exercices\NotesApp\NotesCli\bin\Debug\net6.0\NotesCli.pdb
+R:\PAP_Théorie\ICH-320 [T]\Exercices\NotesApp\NotesCli\obj\Debug\net6.0\NotesCli.csproj.AssemblyReference.cache
+R:\PAP_Théorie\ICH-320 [T]\Exercices\NotesApp\NotesCli\obj\Debug\net6.0\NotesCli.GeneratedMSBuildEditorConfig.editorconfig
+R:\PAP_Théorie\ICH-320 [T]\Exercices\NotesApp\NotesCli\obj\Debug\net6.0\NotesCli.AssemblyInfoInputs.cache
+R:\PAP_Théorie\ICH-320 [T]\Exercices\NotesApp\NotesCli\obj\Debug\net6.0\NotesCli.AssemblyInfo.cs
+R:\PAP_Théorie\ICH-320 [T]\Exercices\NotesApp\NotesCli\obj\Debug\net6.0\NotesCli.csproj.CoreCompileInputs.cache
+R:\PAP_Théorie\ICH-320 [T]\Exercices\NotesApp\NotesCli\obj\Debug\net6.0\NotesCli.dll
+R:\PAP_Théorie\ICH-320 [T]\Exercices\NotesApp\NotesCli\obj\Debug\net6.0\refint\NotesCli.dll
+R:\PAP_Théorie\ICH-320 [T]\Exercices\NotesApp\NotesCli\obj\Debug\net6.0\NotesCli.pdb
+R:\PAP_Théorie\ICH-320 [T]\Exercices\NotesApp\NotesCli\obj\Debug\net6.0\NotesCli.genruntimeconfig.cache
+R:\PAP_Théorie\ICH-320 [T]\Exercices\NotesApp\NotesCli\obj\Debug\net6.0\ref\NotesCli.dll

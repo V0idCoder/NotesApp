@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "NotesApp/1.0.0": {
+        "dependencies": {
+          "NotesCli": "1.0.0"
+        },
+        "runtime": {
+          "NotesApp.dll": {}
+        }
+      },
+      "NotesCli/1.0.0": {
+        "runtime": {
+          "NotesCli.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NotesApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NotesCli/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
